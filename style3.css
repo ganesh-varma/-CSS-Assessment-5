@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border-left: 10px solid orange;
+    border-top: 10px solid white;
+    border-right: 10px solid green;
+}
+.text{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+}
+.happy{
+    margin: 4px;
+    background-color: orange;
+}
+.independence{
+    margin: 4px;
+    background-color: white;
+}
+.day{
+    margin: 4px;
+    background-color: green;
+}
+.sun{
+    position: absolute;
+    z-index: 1;
+}
+.sun img{
+    width: 100px;
+    height: 100px;
+    margin-left: 1300px;
+    margin-top: 100px;
+}
+.flag{
+    position: absolute;
+    z-index: 2;
+}
+.flag img{
+    width: 100px;
+    height: 100px;
+    margin-left: 830px;
+    margin-top: 419px;
+}
+.main{
+height: 100vh;
+width: 100%;
+background-image: url(./sky.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+overflow-x: hidden;
+
+}
+.highway{
+    height: 200px;
+    width: 500%;
+    display: block;
+    background-image: url(./road.jpg);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-repeat:repeat-x;
+    animation: highway 5s linear infinite;
+}
+@keyframes highway{
+    100%{
+        transform: translateX(-3200px);
+    }
+}
+.city{
+    height: 200px;
+    width: 500%;
+    display: block;
+    background-image: url(./city.png);
+    position: absolute;
+    bottom: 200px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-repeat:repeat-x;
+    animation: city 20s linear infinite;
+}
+@keyframes city{
+    100%{
+        transform: translateX(-1000px);
+    }
+}
+.car{
+    width: 400px;
+    left: 50%;
+    bottom: 100px;
+    z-index: 2;
+    transform: translateX(-50%);
+    position: absolute;
+    
+}
+.car img{
+    width: 100%;
+    animation: car 1s linear infinite;
+}
+@keyframes car{
+    100%{
+        transform: translatey(-1px);
+    }
+    50%{
+        transform: translatey(-1px);
+    }
+    0%{
+        transform: translateX(-1px);
+    }
+}
+.wheel{
+    left: 50%;
+    bottom: 178px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+
+}
+.wheel img{
+    width: 72px;
+    height: 72px;
+    animation: wheel 1s linear infinite;
+}
+.frontwheel{
+    left: 80px;
+    position: absolute;
+}
+.backwheel{
+    left: -165px;
+    position: absolute;
+}
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}

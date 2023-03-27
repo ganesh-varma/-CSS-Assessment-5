@@ -1,0 +1,94 @@
+
+body{
+    background-color: yellow;
+}
+.main{
+    display: inline-block;
+    align-items: center;
+}
+.card1{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 2s;
+    margin: 20px;
+}
+.card1:hover{
+    width: 400px;
+    background-color: green;
+
+}
+.card2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 8s;
+    margin: 20px;
+}
+.card2:hover{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    transition-duration: 8s;
+
+}
+.card3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 4s;
+    margin: 20px;
+}
+.card3:hover{
+    width: 400px;
+    background-color: green;
+    transition-duration: 6s;
+}
+.card4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 6s;
+    margin: 20px; 
+}
+.card4:hover{
+    width: 400px;
+    background-color: green;
+    transition-duration: 6s;
+}
+.card5{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 5s;
+    margin: 20px; 
+}
+.card5:hover{
+    width: 400px;
+    background-color: green;
+    transition-duration: 5s;
+}
+.card6{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 2s;
+    margin: 20px; 
+}
+.card6:hover{
+    width: 400px;
+    background-color: green;
+    transition-duration: 4s;
+}
+.card7{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-duration: 4s;
+    margin: 20px; 
+}
+.card7:hover{
+    width: 400px;
+    background-color: green;
+    transition-duration: 4s;
+}
